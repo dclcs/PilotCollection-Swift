@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PilotCollection-Swift_Example' do
+  pod 'PilotCollection-Swift', :path => '../'
+
+  target 'PilotCollection-Swift_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
