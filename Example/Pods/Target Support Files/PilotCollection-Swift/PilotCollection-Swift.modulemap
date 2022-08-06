@@ -1,0 +1,6 @@
+framework module PilotCollection_Swift {
+  umbrella header "PilotCollection-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

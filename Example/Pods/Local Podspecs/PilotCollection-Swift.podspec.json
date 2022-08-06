@@ -1,0 +1,22 @@
+{
+  "name": "PilotCollection-Swift",
+  "version": "0.1.0",
+  "summary": "A short description of PilotCollection-Swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dclcs/PilotCollection-Swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dclcs": "dcl.outlook.1016@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dclcs/PilotCollection-Swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PilotCollection-Swift/Classes/**/*"
+}
