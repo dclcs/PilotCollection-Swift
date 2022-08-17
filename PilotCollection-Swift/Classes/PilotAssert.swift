@@ -21,3 +21,8 @@ func PilotParamterAssert(condition: Bool) {
 func PilotAssertMainThread() {
     PilotAssert(condition: Thread.isMainThread == true, message: "Must be on the main thread")
 }
+
+
+func test() {
+    debugPrint("test")
+}
